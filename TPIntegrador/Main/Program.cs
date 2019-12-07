@@ -48,10 +48,33 @@ namespace Main
 			
 				
 			// b) Eliminar un obrero (se elimina de la empresa y de su grupo)
+			/* 
+				Imprimiremos la lista de obreros con sus datos y luego devera
+				 ingresar el dni del obreo para poder seleccionarlo y luego 
+				 eliminarlo de la empresa y del grupo al que pertenece.
+			*/
 			// c) Listado de obreros
+				 /*
+					Imprimiremos la lista de obreros con sus datos actuales.
+
+				 */
 			// d) Listado de obras
-			/* e) Agregar una obra y asignarle un grupo de obreros. Se debe verificar que haya grupo libre; en
-			   caso contrario se debe levantar una excepción que informe lo sucedido.*/
+
+					/*
+						Mostraremos las listas, incluyendo las que finalizaron.
+					*/
+			/* e) Agregar una obra y asignarle un grupo de obreros. Se debe verificar 
+				que haya grupo libre; en caso contrario se debe levantar una excepción 
+				que informe lo sucedido.*/
+
+				/*
+					crearemos una obre y le mostraremos una lista y le daremos
+					a elegir el grupo que desea asignar.
+					si el grupo ingresado no existe,se ocurrira un error (try () exept())y
+					se lo mostrara en pantalla y luego se cerrara el programa.
+
+				*/
+
 			/* f) Modificar el estado de avance de una obra. Si el estado de avance llega al 100% la obra debe
 			   darse por finalizada, se elimina del listado de obras en ejecución y se guarda en obras
 			   finalizadas*/
