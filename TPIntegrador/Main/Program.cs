@@ -14,7 +14,7 @@ namespace Main
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello Wooooooorld!");
+			Console.WriteLine("Hello rld!");
 			
 			// TODO: Implement Functionality Here
 			
