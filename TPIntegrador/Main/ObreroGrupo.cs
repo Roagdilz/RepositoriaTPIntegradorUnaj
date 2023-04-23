@@ -16,11 +16,20 @@ namespace Main
 	public class ObreroGrupo
 	{
 		private static int grupos= 0;
-		private int id;
+		private int id =0;
 		private int codigoDeObra;// Obra.codigoInterno
 		private ArrayList obreros = new ArrayList(); // Asignar obreros
 		public ObreroGrupo()
 		{
+			this.grupos += 1
+			this.id = this.grupos;
+		}
+
+
+
+		// Metodo Agregar Obrero;
+		public void AgregarObrero(Obrero obrero){
+			obreros.Add(obrero);
 		}
 
 

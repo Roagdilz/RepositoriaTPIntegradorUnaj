@@ -16,6 +16,7 @@ namespace Main
 	public class Obra
 	{
 		// Variables de clase / estaticas / que siempre existiran;
+		private static int obras=0;
 		private static ArrayList obrasEjecucion = new ArrayList();
 		private static ArrayList obrasFinalizadas= new ArrayList();
 		
@@ -32,6 +33,10 @@ namespace Main
 		public Obra()
 		{
 		}
+
+
+		// Propiedades;
+
 
 		public string Nombre {
 			get{
@@ -87,6 +92,14 @@ namespace Main
 			}
 			set{
 				this.costo = value;
+			}
+		}
+		public int Obras{
+			get	{
+				return this.obras;
+			}
+			set{
+				this.obras= value;
 			}
 		}
 
