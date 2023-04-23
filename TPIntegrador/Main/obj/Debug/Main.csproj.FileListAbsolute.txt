@@ -1,0 +1,5 @@
+D:\Usuarios\Alumno\Documentos\UNAJ\AyP-Com3\TPintegrador\RepositoriaTPIntegradorUnaj\TPIntegrador\Main\obj\Debug\Main.csprojResolveAssemblyReference.cache
+D:\Usuarios\Alumno\Documentos\UNAJ\AyP-Com3\TPintegrador\RepositoriaTPIntegradorUnaj\TPIntegrador\Main\bin\Debug\Main.exe
+D:\Usuarios\Alumno\Documentos\UNAJ\AyP-Com3\TPintegrador\RepositoriaTPIntegradorUnaj\TPIntegrador\Main\bin\Debug\Main.pdb
+D:\Usuarios\Alumno\Documentos\UNAJ\AyP-Com3\TPintegrador\RepositoriaTPIntegradorUnaj\TPIntegrador\Main\obj\Debug\Main.exe
+D:\Usuarios\Alumno\Documentos\UNAJ\AyP-Com3\TPintegrador\RepositoriaTPIntegradorUnaj\TPIntegrador\Main\obj\Debug\Main.pdb

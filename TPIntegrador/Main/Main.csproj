@@ -45,6 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Empresa.cs" />
+    <Compile Include="Obra.cs" />
+    <Compile Include="Obrero.cs" />
+    <Compile Include="ObreroGrupo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
