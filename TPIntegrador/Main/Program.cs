@@ -19,11 +19,8 @@ namespace Main
 
 			// a) Contratar un obrero nuevo (se agrega a la empresa y a un grupo)
 
-			/*
+			
 				
-				
-
-			*/
 			// b) Eliminar un obrero (se elimina de la empresa y de su grupo)
 			// c) Listado de obreros
 			// d) Listado de obras

@@ -24,8 +24,21 @@ namespace Main
 		}
 
 
+
+		// Obrero Existente en el grupo.
+		public bool ObreroExistente(long dni){
+			foreach (Obrero seleccionado in obreros) 
+			{
+				Obrero persona = (Obrero)seleccionado;
+				if (persona.Dni == dni){
+					return true 
+				}
+			}
+			return false
+		}
+
 		//Propiedades
-		
+
 		public ArrayList Grupos {
 			get	{
 				return this.grupos;

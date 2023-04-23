@@ -30,8 +30,20 @@ namespace Main
 		// Metodo Agregar Obrero;
 		public void AgregarObrero(Obrero obrero){
 			obreros.Add(obrero);
+			Console.WriteLine("Obrero agregado al grupo {0}",id);
 		}
 
+		// Obrero Existente en el grupo.
+		public bool ObreroExistente(Obrero obrero){
+			foreach (Obrero seleccionado in obreros) 
+			{
+				Obrero persona = (Obrero)seleccionado;
+				if (persona.Dni == obrero.Dni){
+					return true 
+				}
+			}
+			return false
+		}
 
 
 		// Propiedades;

@@ -23,13 +23,14 @@ namespace Main
 
 		private int numeroLegajo;
 
-		private int dni;
+		private long dni;
 
 		private int grupoObrero; // ObreroGrupo.ID
 
 		public Obrero()
 		{
 		}
+
 
 
 
@@ -81,7 +82,7 @@ namespace Main
 				this.numeroLegajo = value;
 			}
 		}
-		public int Dni {
+		public long Dni {
 			get{
 				return this.dni;
 			}

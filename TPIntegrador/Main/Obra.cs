@@ -32,6 +32,8 @@ namespace Main
 		
 		public Obra()
 		{
+			this.obras += 1;
+			this.codigoInterno = this.obras;
 		}
 
 
