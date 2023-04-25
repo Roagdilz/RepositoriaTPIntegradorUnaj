@@ -14,11 +14,27 @@ namespace Main
 	{
 		public static void Main(string[] args)
 		{
+			Empresa nuevaEmpresa = new Empresa()
 			Console.WriteLine("Hello world!");
 			
 
 			// a) Contratar un obrero nuevo (se agrega a la empresa y a un grupo)
 
+			string nombre,apellido;
+			int legajo;
+			long dni;
+			if (nuevaEmpresa.ObreroExistente(dni)){
+				Obrero persona = new Obrero()	
+			}else{
+				Obrero persona = nuevaEmpresa.DevolverObrero(dni);
+				Console.WriteLine("El usuario ingresado ya se encuentra en la Empresa.");
+				Console.WriteLine("Datos de la persona:");
+				Console.WriteLine("Nombre: {0}.",persona.Nombre);
+				Console.WriteLine("Apellido {1}.",persona.Apellido);
+				Console.WriteLine(" Grupo de Obra: {2}.",persona.ObreroGrupo);
+				Console.WriteLine("Regresaremos al menu principal. Precione cualquier tecla.")
+				Console.ReadKey();
+			}
 			
 				
 			// b) Eliminar un obrero (se elimina de la empresa y de su grupo)

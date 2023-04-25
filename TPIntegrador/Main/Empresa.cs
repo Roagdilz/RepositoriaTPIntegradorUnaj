@@ -19,8 +19,10 @@ namespace Main
 		private ArrayList grupos= new ArrayList();
 		private ArrayList obras= new ArrayList();
 		private ArrayList obreros= new ArrayList();		
-		public Empresa()
-		{
+		public Empresa(){
+
+		 	Console.WriteLine("······Welcome······");
+		 	Console.ReadKey();
 		}
 
 

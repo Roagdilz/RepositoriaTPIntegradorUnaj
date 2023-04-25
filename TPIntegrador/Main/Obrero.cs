@@ -31,6 +31,12 @@ namespace Main
 		{
 		}
 
+		public Obrero(string nombre, string apellido, int legajo, long dni){
+			this.nombre = nombre;
+			this.apellido = apellido;
+			this.numeroLegajo= legajo;
+			this.dni = dni;
+		}
 
 
 
