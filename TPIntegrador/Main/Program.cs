@@ -19,11 +19,21 @@ namespace Main
 			
 
 			// a) Contratar un obrero nuevo (se agrega a la empresa y a un grupo)
-
+			// Le pedimos algunos datos.
 			string nombre,apellido;
-			int legajo;
+			int legajo,numeroGrupo;
 			long dni;
+			/*
+			 ········································································
+			 ·Primero verificamos que el obrero que desea contratar,				·
+			 ·no este en la lista actual de la empresa.								·
+			 ·si no existe, se creara el obrero con todos los datos ingresados,		·
+			 ·de lo contrario, se le imprimira los datos del obrero y lo regresara  ·
+			 ·al menu .																·
+			 ········································································
+			 */				
 			if (nuevaEmpresa.ObreroExistente(dni)){
+
 				Obrero persona = new Obrero()	
 			}else{
 				Obrero persona = nuevaEmpresa.DevolverObrero(dni);
@@ -31,7 +41,7 @@ namespace Main
 				Console.WriteLine("Datos de la persona:");
 				Console.WriteLine("Nombre: {0}.",persona.Nombre);
 				Console.WriteLine("Apellido {1}.",persona.Apellido);
-				Console.WriteLine(" Grupo de Obra: {2}.",persona.ObreroGrupo);
+				Console.WriteLine("Grupo de Obra: {2}.",persona.ObreroGrupo);
 				Console.WriteLine("Regresaremos al menu principal. Precione cualquier tecla.")
 				Console.ReadKey();
 			}
