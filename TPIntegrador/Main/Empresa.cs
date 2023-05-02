@@ -16,27 +16,22 @@ namespace Main
 	/// </summary>
 	public class Empresa
 	{
+		private string name;
 		private ArrayList grupos= new ArrayList();
 		private ArrayList obras= new ArrayList();
 		private ArrayList obreros= new ArrayList();		
 		public Empresa(){
 
-		 	Console.WriteLine("······Welcome······");
-		 	Console.ReadKey();
+		 	
+		}
+		public Empresa(string nombre){
+			this.nombre = nombre;
 		}
 
 
-
 		// Obrero Existente en el grupo.
-		public bool ObreroExistente(long dni){
-			foreach (Obrero seleccionado in obreros) 
-			{
-				Obrero persona = (Obrero)seleccionado;
-				if (persona.Dni == dni){
-					return true 
-				}
-			}
-			return false
+		public bool ObreroExistente(Obrero obrero){
+			return obreros.Contains(obrero);
 		}
 
 		//Propiedades

@@ -7,6 +7,7 @@
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
+using System.Collections;
 
 namespace Main
 {
@@ -14,7 +15,7 @@ namespace Main
 	{
 		public static void Main(string[] args)
 		{
-			Empresa nuevaEmpresa = new Empresa()
+			Empresa nuevaEmpresa = new Empresa();
 			Console.WriteLine("Hello world!");
 			
 
@@ -34,7 +35,7 @@ namespace Main
 			 */				
 			if (nuevaEmpresa.ObreroExistente(dni)){
 
-				Obrero persona = new Obrero()	
+				Obrero persona = new Obrero();
 			}else{
 				Obrero persona = nuevaEmpresa.DevolverObrero(dni);
 				Console.WriteLine("El usuario ingresado ya se encuentra en la Empresa.");
@@ -84,5 +85,16 @@ namespace Main
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
 		}
+		public static bool BuscarObrero(long dni,ArrayList obreros){
+			foreach (Obrero seleccionado in obreros) 
+			{
+				Obrero persona = (Obrero)seleccionado;
+				if (persona.Dni == dni){
+					return true
+				}
+			}
+			return false
+		}
 	}
+	
 }
